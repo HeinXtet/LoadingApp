@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <Transition
         app:constraintSetEnd="@id/end"
+        app:duration="@android:integer/config_longAnimTime"
+        app:autoTransition="animateToEnd"
         app:constraintSetStart="@id/start" />
 
 

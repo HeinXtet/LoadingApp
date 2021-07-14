@@ -17,7 +17,6 @@ class DetailActivity : AppCompatActivity() {
             setSupportActionBar(toolbar)
             val fileName = intent.getStringExtra(FILE_NAME)
             val status = intent.getStringExtra(STATUS)
-            content.motionLayout.progress = 100f
             content.tvFileName.text = fileName
             content.tvStatus.text = status
             content.btnOk.setOnClickListener {
